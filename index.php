@@ -1,7 +1,7 @@
 <?php
 
-$colors = ['red', 'green', 'blue'];
+$greet = function ($name = 'you'){
+    echo "hello $name";
+};
 
-$user = 
-
-var_dump($colors);
+$greet('Ford');
