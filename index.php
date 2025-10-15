@@ -2,6 +2,6 @@
 
 $colors = ['red', 'green', 'blue'];
 
-$user = 
+unset($colors[0]);
 
 var_dump($colors);
