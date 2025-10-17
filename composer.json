@@ -1,0 +1,21 @@
+{
+    "name": "fordp/learn-php",
+    "description": "Our new project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fordp\\LearnPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ford Henley",
+            "email": "info@fordswebhelp.com"
+        }
+    ]
+}
